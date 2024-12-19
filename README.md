@@ -16,6 +16,27 @@ This is a Spring Boot backend project implementing secure API authentication usi
 
 ---
 
+## Future Planned Features
+
+Here are some planned enhancements for this project:
+1. **Role-Based Authorization**:
+   - Implement `@PreAuthorize` or similar mechanisms to restrict access based on roles (e.g., Admin, User, Student).
+   - Add role-based endpoints for managing sensitive operations.
+2. **Refresh Tokens**:
+   - Add support for refresh tokens to allow seamless JWT renewal.
+3. **Pagination for Student List**:
+   - Implement pagination for the `/students` endpoint to handle large datasets efficiently.
+4. **Improved Error Handling**:
+   - Introduce global exception handling for better API responses.
+5. **Dockerization**:
+   - Create a `Dockerfile` to containerize the application for easy deployment.
+6. **Front-End Integration**:
+   - Build a front-end client using React or Angular for interacting with the API.
+7. **API Documentation**:
+   - Use Swagger/OpenAPI for comprehensive API documentation.
+
+---
+
 ## Technologies Used
 - **Spring Boot**: Backend framework
 - **Spring Security**: Authentication & Authorization
