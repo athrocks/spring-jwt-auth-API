@@ -102,7 +102,7 @@ Update the application.properties file:
 
   ```sql
   CREATE TABLE users(
-  	id integer primary key,
+  	  id integer primary key,
       username varchar(50),
       password varchar(50)
   );
